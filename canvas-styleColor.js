@@ -43,12 +43,14 @@ if(canvas.getContext){
     ctx.fillStyle='#F30';
     ctx.fillRect(375,75,75,75);
     ctx.fillStyle='#FFF';
-    //ctx.globalAlpha=0.2;
+    ctx.save();//保存全局透明度之前状态，便于后面退出
+    ctx.globalAlpha=0.2;
     for(var i=0;i<7;i++){
     	ctx.beginPath();
       ctx.arc(375,75,10+10*i,0,Math.PI*2,true);
       ctx.fill();
     }
+     ctx.restore();//退回全局透明度之前状态
   //设置线条宽度,设置线条末端样式。两线段连接处所显示
   var lineCap = ['butt','round','square'];
   ctx.strokeStyle = '#09f';

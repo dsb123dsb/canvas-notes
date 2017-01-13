@@ -16,7 +16,7 @@
 实例效果图
 
 ![](http://i.imgur.com/mGDqxuw.png)
-# canvas-样式和颜色 #	
+# [canvas-样式和颜色](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors) #	
 1. 色彩 Colors
 2. 透明度 Transparency
   
@@ -39,4 +39,18 @@
 
 实例效果
 
-![](http://i.imgur.com/VEiRgKm.png)![](http://i.imgur.com/WAvMbzq.png)
+![](http://i.imgur.com/9Ms5DLg.png)
+# [绘制文本](http://www.whatwg.org/specs/web-apps/current-work/images/baselines.png) #
+1. 文本
+	- 填充文本
+	- 文本边框
+2. 有样式的文本
+	- textBaseline
+3. 先进的文本测量	
+
+   ![](http://i.imgur.com/ChryIpO.png)
+
+# [使用图片](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Using_images) #
+1. 绘制图片
+2. 缩放Scalling
+3. 切片Slicing
