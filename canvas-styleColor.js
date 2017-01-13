@@ -118,8 +118,56 @@ if(canvas.getContext){
   ctx.fillRect(460,160,130,130);
   ctx.strokeRect(490,190,50,50);
 
-
-    
+  // 创建径向渐变
+  var radgrad=ctx.createRadialGradient(45,345,10,52,350,30);
+  radgrad.addColorStop(0,'#A7D30C');
+  radgrad.addColorStop(0.9,'#019F62');
+  radgrad.addColorStop(1,'rgba(1,158,98,0)');
+  var radgrad2=ctx.createRadialGradient(105,405,20,112,420,50);
+  radgrad2.addColorStop(0,'#FF5F98');
+  radgrad2.addColorStop(0.9,'#FF0188');
+  radgrad2.addColorStop(1,'rgba(255,1,136,0)');
+  var radgrad3 = ctx.createRadialGradient(95,315,15,102,320,40);
+  radgrad3.addColorStop(0,'#00C9FF');
+  radgrad3.addColorStop(0.9,'#00E5F2');
+  radgrad3.addColorStop(1,'rgba(0,201,255,0)');
+  var radgrad4 = ctx.createRadialGradient(0,450,50,0,440,90);
+  radgrad4.addColorStop(0, '#F4F201');
+  radgrad4.addColorStop(0.8, '#E4C700');
+  radgrad4.addColorStop(1, 'rgba(228,199,0,0)');
+  // 画图形
+  ctx.fillStyle = radgrad4;
+  ctx.fillRect(0,300,150,150);
+  ctx.fillStyle = radgrad3;
+  ctx.fillRect(0,300,150,150);
+  ctx.fillStyle = radgrad2;
+  ctx.fillRect(0,300,150,150);
+  ctx.fillStyle = radgrad;
+  ctx.fillRect(0,300,150,150);
+  //图案样式Patterns， createPattern(image, type)，Type 必须是下面的字符串值之一：repeat，repeat-x，repeat-y 和 no-repeat。
+  //创建新image对象，用图案
+  var img=new Image();
+  img.src='http://img1.imgtn.bdimg.com/it/u=1267666025,3670390813&fm=214&gp=0.jpg';
+  img.onload=function(){//用 Image 对象的 onload handler 来确保设置图案之前图像已经装载完毕
+  //创建图案
+  var ptrn=ctx.createPattern(img,'repeat');
+  ctx.fillStyle=ptrn;
+  ctx.fillRect(150,300,300,300); 
+   //阴影Shadows
+  ctx.shadowOffsetX=2;
+  ctx.shadowOffsetY=2;
+  ctx.shadowBlur=2;
+  ctx.shadowColor="rgba(0,0,0,0.5)";
+  ctx.font="20px sans-serif";
+  ctx.fillStyle='blue';
+  ctx.fillText("荏苒",225,395);
+  //Canvas填充规则,"nonzero"  默认值."evenodd"
+  ctx.beginPath();
+  ctx.arc(525,375,30,0,Math.PI*2,true);
+  ctx.arc(525,375,15,0,Math.PI*2,true);
+  ctx.arc(525,375,45,0,Math.PI*2,true);
+  ctx.fill("evenodd");
+   } 
     
     
     

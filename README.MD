@@ -14,6 +14,7 @@
 4. Path2D 对象
 
 实例效果图
+
 	![](http://i.imgur.com/mGDqxuw.png)
 # canvas-样式和颜色 #	
 1. 色彩 Colors
@@ -36,4 +37,6 @@
 6. 阴影 Shadows
 7. Canvas 填充规则
 
-实例效果图![](http://i.imgur.com/VEiRgKm.png)
+实例效果
+
+![](http://i.imgur.com/VEiRgKm.png)![](http://i.imgur.com/WAvMbzq.png)
