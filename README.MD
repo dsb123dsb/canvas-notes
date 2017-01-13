@@ -54,3 +54,13 @@
 1. 绘制图片
 2. 缩放Scalling
 3. 切片Slicing
+# [变形](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Transformations) #
+1. 状态的保存和恢复 Saving and restoring state
+2. 移动 Translating
+3. 旋转 Rotating
+4. 缩放 Scaling
+5. 变形 Transforms
+
+实力效果
+
+![](http://i.imgur.com/lVnmu3z.png)
