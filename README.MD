@@ -15,7 +15,7 @@
 
 实例效果图
 
-	![](http://i.imgur.com/mGDqxuw.png)
+![](http://i.imgur.com/mGDqxuw.png)
 # canvas-样式和颜色 #	
 1. 色彩 Colors
 2. 透明度 Transparency
