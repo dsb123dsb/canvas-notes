@@ -61,6 +61,23 @@
 4. 缩放 Scaling
 5. 变形 Transforms
 
-实力效果
+实例效果
 
 ![](http://i.imgur.com/lVnmu3z.png)
+# [合成裁剪](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Compositing) #
+1. globalCompositeOperation
+	- globalCompositeOperation = type（12种）
+2. 裁切路径 Clipping paths
+# [基本动画 ](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Basic_animations)#
+1. 动画的基本步骤
+ 	- 清空 canvas
+	- 保存 canvas 状态
+	- 绘制动画图形（animated shapes）
+	- 恢复 canvas 状态
+2. 操控动画
+
+Controlling an animation2requestAnimationFrame(callback)告诉浏览器你希望执行一个动画，并在重绘之前，请求浏览器执行一个特定的函数来更新动画。
+
+实例效果
+
+![](http://i.imgur.com/yDPJIQm.gif)
