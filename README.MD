@@ -81,3 +81,5 @@ Controlling an animation2requestAnimationFrame(callback)告诉浏览器你希望
 实例效果
 
 ![](http://i.imgur.com/yDPJIQm.gif)
+# [高级动画](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Advanced_animations) #
+1.绘制小球  2.添加速率  3.边界  4.加速度  5.长尾效果  6.添加鼠标控制  
